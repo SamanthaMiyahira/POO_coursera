@@ -1,9 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2023-09-24T11:53:22.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.2" etag="vpcfyO6Aq8XyeVwIaJG4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-24T12:48:53.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="afB-191OamLa8tID07ZD" version="21.8.2" type="github">
   <diagram name="Page-1" id="leCUkOZR9ksM7nFm31TO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-1" value="Fantasma" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-2" value="Movimentação move()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-3" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-5" value="Fantasma Vermelho" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-6" value="move(){&lt;br&gt;// persegue o fantasma&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-5">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-9" value="Fantasma Laranja" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="330" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-10" value="move(){&lt;br&gt;// tenta se posicionar na frente da boca do fantasma&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-9">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-13" value="Fantasma Rosa" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="330" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-14" value="move() {&lt;br&gt;// se move aleatoriamente pelo mapa&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-13">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-17" value="Fantasma Branco" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-18" value="move() {&lt;br&gt;// foge do fantasma&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-17">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-21" value="&lt;i&gt;Movimentação Fantasma&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="110" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-22" value="&lt;i&gt;move()&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-21">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-24" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-21">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-23" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-21">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-25" value="PerseguePacMan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="330" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-26" value="move(){&lt;br&gt;// Implementa a perseguição do fantasma no pac-man&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-25">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-29" value="PosicionaFrentePacMan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="330" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-30" value="move {&lt;br&gt;// Implementa a tentativa do fantasma se posicionar na frente da boca do pac-man&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-29">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-33" value="Aleatório" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="330" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-34" value="move {&lt;br&gt;// Implementa a movimentação aleatória do fantasma pelo mapa&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-33">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-37" value="FogePacMan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="330" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-38" value="move {&lt;br&gt;// Implementa a movimentação de fuga do fantasma em relação ao pac-man&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iyJs9-_Ow2WB98Cz37nA-37">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-41" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Padrão Estratégia&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-42" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Padrão Fábrica&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="550" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.514;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-25" target="iyJs9-_Ow2WB98Cz37nA-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="410" as="sourcePoint" />
+            <mxPoint x="740" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="280" />
+              <mxPoint x="1092" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-44" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="246" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="410" as="sourcePoint" />
+            <mxPoint x="1020" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-49" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="410" as="sourcePoint" />
+            <mxPoint x="1090" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="iyJs9-_Ow2WB98Cz37nA-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="280" as="sourcePoint" />
+            <mxPoint x="1320" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1370" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-51" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.136;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-5" target="iyJs9-_Ow2WB98Cz37nA-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-52" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.314;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-9" target="iyJs9-_Ow2WB98Cz37nA-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="269" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-53" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.614;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-13" target="iyJs9-_Ow2WB98Cz37nA-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="350" as="sourcePoint" />
+            <mxPoint x="279" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-54" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.907;entryY=1.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-17" target="iyJs9-_Ow2WB98Cz37nA-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="360" as="sourcePoint" />
+            <mxPoint x="289" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyJs9-_Ow2WB98Cz37nA-55" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyJs9-_Ow2WB98Cz37nA-3" target="iyJs9-_Ow2WB98Cz37nA-24">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="420" y="185" as="sourcePoint" />
+            <mxPoint x="220" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
